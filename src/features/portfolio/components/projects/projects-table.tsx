@@ -38,7 +38,7 @@ export const ProjectsTable = () => {
             links={project.links}
           >
             <TableRow className="cursor-pointer appearance-none items-start">
-              <TableCell className="text-muted-foreground">2019</TableCell>
+              <TableCell className="text-muted-foreground">2024</TableCell>
               <TableCell>{project.title}</TableCell>
               <TableCell>Shega</TableCell>
               <TableCell>
