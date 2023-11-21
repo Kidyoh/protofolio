@@ -40,7 +40,7 @@ export const ProjectsTable = () => {
             <TableRow className="cursor-pointer appearance-none items-start">
               <TableCell className="text-muted-foreground">2019</TableCell>
               <TableCell>{project.title}</TableCell>
-              <TableCell>Apple</TableCell>
+              <TableCell>Shega</TableCell>
               <TableCell>
                 {project.summary.length > 100
                   ? `${getFirstStringsLessThanNChars(
