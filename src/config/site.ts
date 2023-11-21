@@ -6,7 +6,7 @@ export const siteConfig: ISiteConfig = {
     "My protofolio",
   image: "/images/screenshots/screenshot01.png",
   links: {
-    // order is same order in the footer (when link added it's shown in the footer)
+ 
     mail: "kidyoh789@gmail.com",
     linkedin: "https://linkedin.com/in/kidus-yohannes-568a31207",
     github: "https://github.com/kidyoh",
@@ -142,59 +142,97 @@ export const siteConfig: ISiteConfig = {
   ],
   projects: [
     {
-      title: "Spotify Connected App",
-      image: "/images/projects/project01.webp",
+      title: "Ethiopian Calander with Date Convertor",
+      image: "/images/projects/project1.png",
       summary:
-        "Build a Spotify Connected App Video course that teaches how to build a web app with the Spotify Web API. Topics covered include the principles of REST APIs, user auth flows, Node, Express, React, Styled Components, and more.",
-      tags: ["React"],
+        "A simple web application that allows users to convert dates from the Ethiopian calendar to the Gregorian calendar and vice versa. and that shows the current ethiopian calander for upto 100 years, and also shows the current date. using EPOCH time and moment.js and Abushakir.js library",
+      tags: ["React", "NPM"],
       description: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nisi est sit amet facilisis magna etiam. Rutrum quisque non tellus orci ac auctor augue.",
-        "Posuere morbi leo urna molestie. Adipiscing enim eu turpis egestas pretium aenean pharetra magna ac. Est velit egestas dui id ornare arcu odio ut sem. Faucibus in ornare quam viverra orci. Sagittis aliquam malesuada bibendum arcu vitae elementum curabitur vitae nunc.",
-        "Montes nascetur ridiculus mus mauris vitae. Sagittis aliquam malesuada bibendum arcu vitae elementum. Elit pellentesque habitant morbi tristique. Elementum facilisis leo vel fringilla. Ultricies mi eget mauris pharetra et ultrices neque ornare aenean. Euismod nisi porta lorem mollis aliquam ut porttitor leo. Elementum nibh tellus molestie nunc non blandit massa enim nec",
+        "Shows the current date in Ethiopian calander",
+        "Converts Ethiopian calander to Gregorian calander",
+        "Converts Gregorian calander to Ethiopian calander",
+        "Shows Geez numbers instead of roman numbers",
+        "Users can navigate through months and years"
       ],
       links: {
-        website: "https://www.codehub.tn",
-        github: "https://www.github.com/Mehdi-BHA/notionfolio",
-        npm: "https://www.npmjs.com/package/react-wave-player",
+        website: "https://mfe-uat.shega.co/calendar",
+        github: "https://www.github.com/kidyoh/ethiopian-calander",
+        npm: "https://www.npmjs.com/package/abushakir",
       },
       featured: true,
     },
     {
-      title: "Weather Forecast App",
-      image: "/images/projects/project02.png",
+      title: "Currency Convertor",
+      image: "/images/projects/project2.png",
       summary:
-        "Create a weather forecast web application that allows users to check the weather for different locations. The project will involve using APIs, front-end technologies like React, and integrating with a weather data provider.",
-      tags: ["React", "API Integration", "Weather"],
+      "A simple web application that allows users to convert currencies from one to another. using API from currency convertor API",
+      tags: ["React", "API Integration"],
       description: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nisi est sit amet facilisis magna etiam. Rutrum quisque non tellus orci ac auctor augue.",
-        "Posuere morbi leo urna molestie. Adipiscing enim eu turpis egestas pretium aenean pharetra magna ac. Est velit egestas dui id ornare arcu odio ut sem. Faucibus in ornare quam viverra orci. Sagittis aliquam malesuada bibendum arcu vitae elementum curabitur vitae nunc.",
-        "Montes nascetur ridiculus mus mauris vitae. Sagittis aliquam malesuada bibendum arcu vitae elementum. Elit pellentesque habitant morbi tristique. Elementum facilisis leo vel fringilla. Ultricies mi eget mauris pharetra et ultrices neque ornare aenean. Euismod nisi porta lorem mollis aliquam ut porttitor leo. Elementum nibh tellus molestie nunc non blandit massa enim nec",
-      ],
+        "Converts currencies from one to another",
+        "Shows the current exchange rate"
+   ],
       links: {
-        website: "https://www.codehub.tn",
-        github: "https://www.github.com/Mehdi-BHA/notionfolio",
-        npm: "https://www.npmjs.com/package/react-wave-player",
+        website: "https://mfe-uat.shega.co/currency",
+        github: "https://www.github.com/kidyoh/currency-convertor",
       },
       featured: true,
     },
     {
-      title: "E-commerce Website",
-      image: "/images/projects/project03.png",
-      summary:
-        "Develop a fully functional e-commerce website where users can browse products, add them to a cart, and make purchases. Technologies used will include React for the front end, Node.js for the back end, and MongoDB for the database.",
-      tags: ["React", "Node.js", "E-commerce"],
+      title: "Crypto Currency Tracker",
+      image: "/images/projects/project3.png",
+      summary:"A simple web application that allows users to track crypto currencies. using API from CoinGecko",
+ tags: ["React", "Node.js", "Crypto Currency API"],
       description: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nisi est sit amet facilisis magna etiam. Rutrum quisque non tellus orci ac auctor augue.",
-        "Posuere morbi leo urna molestie. Adipiscing enim eu turpis egestas pretium aenean pharetra magna ac. Est velit egestas dui id ornare arcu odio ut sem. Faucibus in ornare quam viverra orci. Sagittis aliquam malesuada bibendum arcu vitae elementum curabitur vitae nunc.",
-        "Montes nascetur ridiculus mus mauris vitae. Sagittis aliquam malesuada bibendum arcu vitae elementum. Elit pellentesque habitant morbi tristique. Elementum facilisis leo vel fringilla. Ultricies mi eget mauris pharetra et ultrices neque ornare aenean. Euismod nisi porta lorem mollis aliquam ut porttitor leo. Elementum nibh tellus molestie nunc non blandit massa enim nec",
-      ],
+        "Shows the current price of crypto currencies",
+        "Shows the percentage change of crypto currencies",
+        "Shows the market cap of crypto currencies",
+        "Shows the volume of crypto currencies",
+        "Shows the total supply of crypto currencies",
+        "Shows the market rank of crypto currencies",
+        "Shows the detail of each crypto currencies"
+ ],
       links: {
-        website: "https://www.codehub.tn",
-        github: "https://www.github.com/Mehdi-BHA/notionfolio",
-        npm: "https://www.npmjs.com/package/react-wave-player",
+        website: "https://mfe-uat.shega.co/crypto",
+        github: "https://www.github.com/kidyoh/crypto-tracker",
       },
       featured: true,
     },
+    {
+      title: "Internet Speed Tester",
+      image: "/images/projects/project4.png",
+      summary:"A simple web application that allows users to test their internet speed. using API from speedtest.net",
+ tags: ["React", "Node.js", "Internet Speed API"],
+      description: [
+      "Shows the current download speed",
+      "Shows the current upload speed",
+      "Shows the current ping speed",
+      "Shows the current jitter speed",
+      "shows both upload and download speed in mbps and kbps"
+ ],
+      links: {
+        website: "https://mfe-uat.shega.co/internetspeed",
+        github: "https://www.github.com/kidyoh/internet-speed-tester",
+      },
+      featured: true,
+    },
+    {
+      title: "Multiplayer Tic Tac Toe",
+      image: "/images/projects/project5.png",
+      summary:"A simple web application that allows users to play tic tac toe with their friends. using Firebase Firestore",
+ tags: ["React", "Firebase", "Multiplayer"],
+      description: [
+      "Allows users to play tic tac toe with their friends",
+      "Shows the current player",
+      "Shows the winner of the game",
+      "Multiplayer game"
+ ],
+      links: {
+        website: "https://mfe-uat.shega.co/tic-tac",
+        github: "https://www.github.com/kidyoh/tic-tac-toe",
+      },
+      featured: true,
+    },
+    
   ],
   contact: {
     title: "Get in touch",
