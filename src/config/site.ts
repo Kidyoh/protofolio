@@ -377,7 +377,6 @@ export const siteConfig: ISiteConfig = {
       link: "https://code.visualstudio.com/",
     },
   ],
-
   services: [
     {
       title: "Web Development",
@@ -402,6 +401,6 @@ export const siteConfig: ISiteConfig = {
       description:
         "I develop mobile applications for iOS and Android using React Native and Flutter.",
       icon: "mobile-alt",
-    }
+    },
   ],
 }

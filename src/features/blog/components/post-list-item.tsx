@@ -22,7 +22,6 @@ export const PostListItem = (props: PostListItemProps) => {
 
   return (
     <Link href={href}>
-      <meta itemProp="url" content={href} name={title}/>
       <li className="group relative cursor-pointer">
         {/* background */}
         <div className="absolute left-0 top-0 z-[-1] h-full w-full rounded-xl bg-[rgba(50,50,50,0.1)] opacity-30 shadow-md transition-all duration-300 group-hover:opacity-100 dark:bg-[rgba(230,230,230,0.1)] dark:from-transparent dark:via-transparent dark:to-transparent" />
