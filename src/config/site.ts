@@ -1,7 +1,7 @@
 import { ISiteConfig } from "@/types"
 
 export const siteConfig: ISiteConfig = {
-  name: "Kidus Yohannes", // shown in the header
+  name: "Kidus Yohannes",
   description:
     "My protofolio",
   image: "/images/screenshots/screenshot01.png",
@@ -59,9 +59,9 @@ export const siteConfig: ISiteConfig = {
   },
   about: {
     avatar: "/images/5Y9A0835.jpg",
-    title: "I'm a passionate full-stack developer working from Addis Ababa,Ethiopia.",
+    title: "Lemme Tell You About Myself",
     description: [
-      "Highly skilled and motivated Software Engineer with 2 of experience in designing, developing, and implementing innovative software solutions. ",
+      "Highly skilled and motivated Software Engineer with 2 years of experience in designing, developing, and implementing innovative software solutions. ",
       "Adept at collaborating with cross-functional teams to drive project success. Proven expertise in full-stack development, including front-end and back-end technologies.",
       " Passionate about staying current with emerging technologies and applying them to solve complex problems. Known for delivering high-quality, scalable, and maintainable code within demanding timelines. Excellent problem-solving and communication skills with a commitment to ongoing learning and professional development."
     ]
@@ -376,5 +376,32 @@ export const siteConfig: ISiteConfig = {
       tags: ["Code Editor", "Development"],
       link: "https://code.visualstudio.com/",
     },
+  ],
+
+  services: [
+    {
+      title: "Web Development",
+      description:
+        "I develop websites and web applications using modern technologies like React, Next.js, Node.js, and more.",
+      icon: "code",
+    },
+    {
+      title: "Web Design",
+      description:
+        "I design websites and web applications using modern technologies like Figma, Adobe XD, and more.",
+      icon: "paint-brush",
+    },
+    {
+      title: "Consulting",
+      description:
+        "I consult with companies and startups on how to build and grow their online presence.",
+      icon: "comments",
+    },
+    {
+      title: "App Development",
+      description:
+        "I develop mobile applications for iOS and Android using React Native and Flutter.",
+      icon: "mobile-alt",
+    }
   ],
 }

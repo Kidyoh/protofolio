@@ -11,6 +11,7 @@ import {
 } from "@/features/portfolio"
 import { Button } from "@/components/ui"
 import { filterPublishedPosts } from "@/lib/notion"
+import { Services } from "@/features/portfolio/components/services"
 
 async function getData() {
   const posts = await getAllPosts({ includePages: false })
@@ -21,6 +22,8 @@ async function getData() {
 
 export default async function Home() {
   const { posts } = await getData()
+
+ 
 
   return (
     <main>
@@ -33,6 +36,9 @@ export default async function Home() {
         </Section>
         <Section id="education" title="Education">
           <Education />
+        </Section>
+        <Section id="services" title="What i provide">
+          <Services />
         </Section>
         <Section id="projects" title="Some featured projects">
           <Projects />
@@ -73,3 +79,4 @@ const Section = (props: SectionProps) => {
     </div>
   )
 }
+

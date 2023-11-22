@@ -50,6 +50,17 @@ export interface IEducation {
   link: string
   endDate?: string
 }
+export interface IService {
+  title: string
+  description: string
+  icon: string
+}
+
+export interface ISkill {
+  title: string
+  description: string
+  icon: string
+}
 
 export interface IProject {
   title: string
@@ -107,4 +118,5 @@ export interface ISiteConfig {
   courses: ICourse[]
   contact: IContact
   tools: ITool[]
+  services: IService[]
 }
