@@ -66,28 +66,95 @@ export const siteConfig: ISiteConfig = {
       " Passionate about staying current with emerging technologies and applying them to solve complex problems. Known for delivering high-quality, scalable, and maintainable code within demanding timelines. Excellent problem-solving and communication skills with a commitment to ongoing learning and professional development."
     ]
     },
-  experience: [
+ experience: [
     {
-      title: " Intern Software Engineer",
+      title: "Software Engineer I",
       company: "Shega Media and Technology PLC",
       link: "https://www.shega.co",
       location: "Ethiopia",
       startDate: "June 2023",
       endDate: "Present",
       description: [
-        "Actively participating in ongoing learning initiatives to stay updated with the latest technologies and industry trends. Embracing a growth mindset to enhance my skills in software development.",
-        "Applying critical thinking and problem-solving skills to address challenges in the development process. Contributing creative solutions to ensure the efficiency and effectiveness of software solutions.",
-        "Engaging in collaborative coding and contributing to the team's codebase. Working closely with senior engineers to understand best practices and gain insights into software architecture.",
-        "Participating in code reviews to ensure code quality and consistency. Collaborating with cross-functional teams to ensure the successful delivery of software solutions.",
-        "Working on new technologies like React, Next.js, Node.js, Firebase, and more."
+        "Actively participating in ongoing learning initiatives and embracing a growth mindset to enhance my software development skills.",
+        "Contributing to front-end and back-end development, working with modern technologies such as React, Next.js, Node.js, Firebase, and Tailwind CSS.",
+        "Collaborating closely with senior engineers and cross-functional teams to deliver high-quality software solutions, and contributing to the development of Shega’s media platform and web applications.",
+        "Participating in code reviews, applying best practices, and ensuring code quality, scalability, and maintainability.",
+        "Working on innovative projects including media platform development, system integrations, and API implementations, with a focus on performance optimization."
       ],
       tags: [
-        "Software Development",
-        "Web Applications",
-        "Modern Technologies",
-        "Cross-Functional Teams",
-        "High-Quality Software",
+        "Full-Stack Development",
+        "API Integration",
+        "React",
+        "Next.js",
+        "Node.js",
+        "Firebase",
+        "Tailwind CSS",
+        "Cross-Functional Collaboration",
+      ],
+    },
+    {
+      title: "Vice Chief Technology Officer",
+      company: "YouthClimate Connect (YCC)",
+      link: "https://www.youthclimateconnect.org",
+      location: "Remote",
+      startDate: "October 2024",
+      endDate: "Present",
+      description: [
+        "Leading the technical team to develop and manage YCC’s platform for climate action, education, and collaboration.",
+        "Overseeing technical projects, managing the engineering team, and coordinating with senior leadership to ensure successful platform deployment.",
+        "Implementing innovative tech solutions and integrating APIs to enhance the user experience, while focusing on system scalability and performance.",
+        "Collaborating with the CTO and other departments to drive strategic initiatives aimed at improving environmental impact through technology."
+      ],
+      tags: [
+        "Technical Leadership",
+        "API Integration",
+        "Platform Development",
+        "Team Management",
+        "Strategic Planning",
         "Collaboration",
+      ],
+    },
+    {
+      title: "Chief Technology Officer",
+      company: "Alenelachehu Mental Health Organization",
+      link: "https://www.alenelachehu.org",
+      location: "Ethiopia",
+      startDate: "August 2024",
+      endDate: "Present",
+      description: [
+        "Overseeing the development and execution of technical strategies to support mental health initiatives and provide digital tools for mental health awareness and support.",
+        "Leading a team of developers to create software solutions for mental health services, focusing on telemedicine, resource accessibility, and community engagement.",
+        "Collaborating with mental health professionals to implement user-friendly platforms that integrate teleconsultation, user management, and AI-driven features for symptom diagnosis.",
+        "Managing the integration of the platform with third-party tools and ensuring data security, privacy, and compliance with relevant health regulations."
+      ],
+      tags: [
+        "Telemedicine",
+        "AI-Powered Solutions",
+        "Team Leadership",
+        "User Management",
+        "Mental Health Tech",
+        "Data Security",
+      ],
+    },
+    {
+      title: "MCVP Organizational Development",
+      company: "AIESEC in Ethiopia",
+      link: "https://aiesec.org/",
+      location: "Ethiopia",
+      startDate: "July 2024",
+      endDate: "Present",
+      description: [
+        "Leading organizational development efforts to enhance team effectiveness and optimize internal processes.",
+        "Collaborating with national and international teams to drive strategic initiatives focused on capacity building, leadership development, and process improvement.",
+        "Implementing data-driven solutions to streamline team communication, improve performance, and foster a culture of continuous improvement.",
+        "Coordinating projects related to member engagement and organizational growth, with a focus on sustainability and impact."
+      ],
+      tags: [
+        "Organizational Development",
+        "Team Leadership",
+        "Strategic Planning",
+        "Process Optimization",
+        "Capacity Building",
       ],
     },
     {
@@ -98,24 +165,25 @@ export const siteConfig: ISiteConfig = {
       startDate: "Jun 2020",
       endDate: "Present",
       description: [
-        "Developing and implementing new software solutions. Maintaining and improving the performance of existing software.",
-        "Designing and updating software databases. Recommending improvements to existing software programs as necessary.",
-        "Testing software to ensure responsiveness and efficiency. Writing and implementing efficient code.",
-        "Determining operational practicality. Developing quality assurance procedures.",
-        "Deploying software tools, processes, and metrics. Maintaining and upgrading existing systems.",
-        "Training users. Working closely with other developers, UX designers, business and systems analysts.",
+        "Developing, maintaining, and improving web applications, implementing scalable solutions for clients using modern web technologies.",
+        "Collaborating with designers, analysts, and other developers to build and improve software applications for diverse clients.",
+        "Testing software to ensure responsiveness, efficiency, and scalability, while deploying tools and processes to streamline development workflows.",
+        "Providing consulting services and advising on tech solutions for startups, helping to build and grow their online presence.",
+        "Specializing in technologies like React, Node.js, and AWS, with a focus on delivering performance-driven solutions."
       ],
       tags: [
-        "Software Development",
-        "Web Applications",
-        "Modern Technologies",
-        "Cross-Functional Teams",
-        "High-Quality Software",
-        "Collaboration",
-        
+        "Web Development",
+        "React",
+        "Node.js",
+        "AWS",
+        "API Integration",
+        "Consulting",
+        "Full-Stack Development",
+        "Client Solutions",
       ],
     }
   ],
+
   education: [
     {
       school: "Wollo University",
